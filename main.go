@@ -1,7 +1,7 @@
 package main
 
 import (
-	tmpestbotserver "tmpest-bot-server/pkg/tmpest-bot-server"
+	tmpestbotserver "tmpest-bot-server"
 )
 
 func main() {
