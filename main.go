@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"net/http"
+	"os"
 )
 
 func main() {
@@ -17,7 +18,7 @@ type tmpestBotServer struct {
 func newTmpestBotServer() *tmpestBotServer {
 	return &tmpestBotServer{
 		server: &http.Server{
-			Addr:    ":44910",
+			Addr:    fmt.Sprintf(":%+v", os.Getenv("PORT")),
 			Handler: oauth2RedirectHandler{},
 		},
 	}
