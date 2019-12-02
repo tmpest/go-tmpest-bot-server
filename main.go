@@ -25,11 +25,22 @@ func newTmpestBotServer() *tmpestBotServer {
 }
 
 func (s *tmpestBotServer) start() {
+	fmt.Println("Starting the Tmpest Bot Server")
+	defer fmt.Println("Exiting! Goodbye!")
+
 	s.server.ListenAndServe()
 }
 
 type oauth2RedirectHandler struct{}
 
 func (handler oauth2RedirectHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
-	fmt.Println("Recieved a request!")
+	fmt.Println("Request received")
+	fmt.Println("BODY:")
+	response := make([]byte, 0)
+	r.Body.Read(response)
+
+	fmt.Print(response)
+	// Take code and exchange for Tokens
+
+	// Write tokens to Redis
 }
