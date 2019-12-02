@@ -35,11 +35,7 @@ type oauth2RedirectHandler struct{}
 
 func (handler oauth2RedirectHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("Request received")
-	fmt.Println("BODY:")
-	response := make([]byte, 0)
-	r.Body.Read(response)
-
-	fmt.Print(response)
+	fmt.Printf("Query Params:\n%+v\n", r.URL.Query())
 	// Take code and exchange for Tokens
 
 	// Write tokens to Redis
