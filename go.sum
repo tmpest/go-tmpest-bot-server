@@ -2,6 +2,6 @@ github.com/bradfitz/gomemcache v0.0.0-20190913173617-a41fca850d0b h1:L/QXpzIa3pO
 github.com/bradfitz/gomemcache v0.0.0-20190913173617-a41fca850d0b/go.mod h1:H0wQNHz2YrLsuXOZozoeDmnHXkNCRmMW0gwFWDfEZDA=
 github.com/bwmarrin/discordgo v0.20.1/go.mod h1:O9S4p+ofTFwB02em7jkpkV8M3R0/PUVOwN61zSZ0r4Q=
 github.com/gorilla/websocket v1.4.0/go.mod h1:E7qHFY5m1UJ88s3WnNqhKjPHQ0heANvMoAMk2YaljkQ=
-github.com/tmpest/discord-bot v0.0.0-20191204040439-b58309b36484 h1:4CRLjZbn/V1r71vMimTeW/WcfCZ8OC1FbAml8gPQUmg=
-github.com/tmpest/discord-bot v0.0.0-20191204040439-b58309b36484/go.mod h1:F+gryrMccd5POVW8mpu1XN7lDj6vadpqyhwvefqAJNI=
+github.com/tmpest/discord-bot v0.1.1 h1:HpdX8l37lD9idrlUimjUPg8XFBrN99Y2sP1zT8UmdWw=
+github.com/tmpest/discord-bot v0.1.1/go.mod h1:F+gryrMccd5POVW8mpu1XN7lDj6vadpqyhwvefqAJNI=
 golang.org/x/crypto v0.0.0-20181030102418-4d3f4d9ffa16/go.mod h1:6SG95UA2DQfeDnfUPMdvaQW0Q7yPrPDi9nlGo2tz2b4=
