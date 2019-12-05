@@ -11,8 +11,8 @@ github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZN
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.4.0 h1:2E4SXV/wtOkTonXsotYi4li6zVWxYlZuYNCXe9XRJyk=
 github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=
-github.com/tmpest/discord-bot v0.1.10 h1:WEHtZGzswz/Xx4dtQ24qSdjRY6srn0sunMmX3LmJ77g=
-github.com/tmpest/discord-bot v0.1.10/go.mod h1:MurTfZ2wgsE4LZcqktZEowqUjUi7ROJMHRgIt0eqXVE=
+github.com/tmpest/discord-bot v0.1.11 h1:PwCK3POE7eAzasAHA/Lr2Z7cLQ/Nb0FfEviz0YSdqh8=
+github.com/tmpest/discord-bot v0.1.11/go.mod h1:MurTfZ2wgsE4LZcqktZEowqUjUi7ROJMHRgIt0eqXVE=
 golang.org/x/crypto v0.0.0-20181030102418-4d3f4d9ffa16/go.mod h1:6SG95UA2DQfeDnfUPMdvaQW0Q7yPrPDi9nlGo2tz2b4=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/net v0.0.0-20191204025024-5ee1b9f4859a h1:+HHJiFUXVOIS9mr1ThqkQD1N8vpFCfCShqADBM12KTc=
